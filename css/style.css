@@ -1,0 +1,75 @@
+
+
+*{
+    margin:0;   
+    padding:0;
+    }
+    header{
+    
+    background: #f6f9f9;padding: 20px 0;}
+    .header_wraper{
+    
+    width: 80%;margin: auto;display: flex;justify-content: space-between;align-items: center;}    
+    
+    .logo{
+    
+    }
+     .logo img{
+    
+     }  
+     nav{
+    
+     }
+     
+      nav ul{
+         
+     list-style: none;display: flex;}
+     
+     nav ul li{
+         
+    margin-left: 30px;}
+    
+     
+    nav ul li a{
+         
+    text-decoration: none;color: #2d3950;}
+     
+     .banner{
+         background-image: url(../images/Banner.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center center;
+         min-height: 90vh;
+     display: flex;justify-content: center;align-items: center;}
+     
+
+     .banner_content{
+
+     text-align: center;}
+     .banner_content h1{
+
+     color: #fff;font-size: 82px;}
+     .banner_content span{
+
+     display: block;height: 2px;width: 100%;background: #15a4fa;margin-top: 15px;margin-bottom: 15px;}
+     .banner_content p{
+
+     color: #fff;margin-bottom: 15px;}
+     .banner_content button{
+         
+     background: transparent;color: #fff;border: 1px solid #15a4fa;padding: 15px 25px;font-size: 17px;border-radius: 4px;}
+     .icon{
+        position: absolute;
+        left:50%
+        
+     ;bottom: 10%;transform: translateX(-50%);color: #fff;animation: updown 1s linear infinite;
+     animation-direction: alternate;
+    }
+     @keyframes updown{
+         0%{
+             bottom:10%
+         }
+         100%{
+             bottom:15%
+         }
+     }
